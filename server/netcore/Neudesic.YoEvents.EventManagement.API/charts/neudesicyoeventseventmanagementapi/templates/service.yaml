@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "neudesicyoeventseventmanagementapi.fullname" . }}
+  labels:
+    app: {{ template "neudesicyoeventseventmanagementapi.name" . }}
+    chart: {{ template "neudesicyoeventseventmanagementapi.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "neudesicyoeventseventmanagementapi.name" . }}
+    release: {{ .Release.Name }}

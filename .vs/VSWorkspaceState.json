@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\server\\netcore",
+    "\\server\\netcore\\Neudesic.YoEvents.EventManagement.API",
+    "\\server\\netcore\\Neudesic.YoEvents.EventManagement.API\\Properties"
+  ],
+  "SelectedNode": "\\server\\netcore\\Neudesic.YoEvents.EventManagement.API\\Dockerfile.develop",
+  "PreviewInSolutionExplorer": false
+}

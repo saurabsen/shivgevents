@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".doc\redis-cli-test.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Cache\" />
+    <Folder Include="Eventing\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".doc\README.md" />
+  </ItemGroup>
+
+</Project>

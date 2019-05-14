@@ -1,0 +1,14 @@
+{
+  "name": "neu-events",
+  "version": "1.0.0",
+  "description": "Electron app for NeuEvents",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "pushpendra singh",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.4"
+  }
+}
